@@ -11,6 +11,24 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
+    productFlavors{
+
+        normal{
+
+        }
+
+        demo{
+            applicationIdSuffix ".demo"
+        }
+
+        diferentao{
+            applicationId "br.com.teravalt.diferentao"
+            versionName "0.0.1"
+            versionCode 1
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
